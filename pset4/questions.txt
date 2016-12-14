@@ -1,0 +1,19 @@
+0.  BMP supports 32 bit color, GIF suppors 8 bits, JPEG supports 24 bits, and PNG supports 24 bits
+1.  GIF supports annimation
+2.  lossless formats retain all of their information when compressed. lossy formation lose some of their information when compressed.
+3.  GIFs are lossless, BMP are lossless, PNG are lossless, JPEG is lossy
+4.  When a file is deleted from a FAT file system the system removes it's pointer to the deleted file information and releases the block of memory used to store the deleted info for future use
+5.  In order to ensure that deleted data cannot be recovered a user can physcially destroy the drive, or overwrite all of the drives memeory blocks with null or random ASCII data
+6.  Stdint.h is a header file containing the integer types in c. including long, long long, unsigned, char, etc.
+7.  These data types provide optimum memory usage for certain applications, such as ones where negative numbers aren't to be used.
+8.  BYTE is one byte, DWord is 4 bytes, long is 4 bytes, and word is 2 bytes.   
+9.  The first two bytes of any BMP file are the Chars BM.
+10. bfSize is the size of the file and bi is the size of the bitmap data structrue.
+11. if biHeight is negative then the bitmap is top-down oriented.
+12. The color depth is specified by the field biBitCount.
+13. If the user does not enter a valid output file name, fopen could return NULL.
+14. Because we are always reading in one element of data (BITMAPINFOHEADER).
+15. Padding is assigned to all bi.biWidth that are not even multiples of 4. (i.e bi.biwidth % != 0)
+16. Fseek allows us the change the location of a file pointer.
+17. SEEK_CUR is the current location of the file pointer.
+18. Rob Dunit!
